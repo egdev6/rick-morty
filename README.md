@@ -1,35 +1,33 @@
-# Whitebox Office prueba técnica (React)
-Este es el repositorio para la prueba técnica de React Whitebox Office.
+# Rick and Morty website
 
-La prueba consiste en desarrollar una aplicación SPA con un listado de personajes de Rick and Morty.
+DEMO: https://egdev-rick-morty.netlify.app/
 
-La API de donde se van a obtener los datos es https://rickandmortyapi.com/api y su documentación es https://rickandmortyapi.com/documentation/#rest.
-Hay que usar su versión REST.
+## React + TypeScript + Vite
 
-## Requisitos
-Para poder valorar adecuadamente el trabajo de frontend, necesitaremos que se
-cubran algunos puntos básicos, así como otros deseados a fin de poder valorar
-adecuadamente la aplicación desarrollada.
+-Vite
+-Typescript
+-React
+-React-Query
+-Axios
+-React-router-dom
+-Styled-components
+-React-loader-spinner
+-Playwright
+-Eslint
+-Prettier
+-Lint-staged
+-Husky
 
-### Requisitios mínimos
-- Crear un listado de personajes de Rick And Morty.
-- El listado debe mostrar 20 personajes.
-- Añadir una paginación o un botón de cargar más.
-- Crear una zona de filtros que al menos filtre por el nombre.
-- Crear una vista que muestre información de un único personaje.
-- La aplicación debe ser responsive.
+## Comands
 
-### Requisitos opcionales
-- Hacer que la página de cada personaje tenga url propia.
-- Implementar algun tipo de caché en las llamadas a la api, como por ejemplo react-query.
-- Implementar las siguientes herramientas en el proyecto: eslint, prettier, husky y lint-staged. Con esto tendremos una gestión de errores a través de eslint, un formateo uniforme para todo el proyecto mediante prettier y un sistema automático que ejecute ambos procesos sobre los cambios antes de que se reflejen en el repositorio.
-
-### Funcionalidades a valorar
-- Uso de animaciones CSS.
-- Maquetación cuidada.
-- Buenas prácticas.
-- Código limpio.
-
-## Un ejemplo de la aplicación sería:
-
-![alt text](https://user-images.githubusercontent.com/83648341/143615292-668ef575-0dfe-4c5e-9c18-7e53f3e3b820.png)
+```js
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "prepare": "husky",
+    "pre-commit": "lint-staged"
+    "test": "npx playwright test"
+  }
+```
