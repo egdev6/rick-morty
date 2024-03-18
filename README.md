@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+# Whitebox Office prueba técnica (React)
+Este es el repositorio para la prueba técnica de React Whitebox Office.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+La prueba consiste en desarrollar una aplicación SPA con un listado de personajes de Rick and Morty.
 
-Currently, two official plugins are available:
+La API de donde se van a obtener los datos es https://rickandmortyapi.com/api y su documentación es https://rickandmortyapi.com/documentation/#rest.
+Hay que usar su versión REST.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requisitos
+Para poder valorar adecuadamente el trabajo de frontend, necesitaremos que se
+cubran algunos puntos básicos, así como otros deseados a fin de poder valorar
+adecuadamente la aplicación desarrollada.
 
-## Expanding the ESLint configuration
+### Requisitios mínimos
+- Crear un listado de personajes de Rick And Morty.
+- El listado debe mostrar 20 personajes.
+- Añadir una paginación o un botón de cargar más.
+- Crear una zona de filtros que al menos filtre por el nombre.
+- Crear una vista que muestre información de un único personaje.
+- La aplicación debe ser responsive.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Requisitos opcionales
+- Hacer que la página de cada personaje tenga url propia.
+- Implementar algun tipo de caché en las llamadas a la api, como por ejemplo react-query.
+- Implementar las siguientes herramientas en el proyecto: eslint, prettier, husky y lint-staged. Con esto tendremos una gestión de errores a través de eslint, un formateo uniforme para todo el proyecto mediante prettier y un sistema automático que ejecute ambos procesos sobre los cambios antes de que se reflejen en el repositorio.
 
-- Configure the top-level `parserOptions` property like this:
+### Funcionalidades a valorar
+- Uso de animaciones CSS.
+- Maquetación cuidada.
+- Buenas prácticas.
+- Código limpio.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Un ejemplo de la aplicación sería:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![alt text](https://user-images.githubusercontent.com/83648341/143615292-668ef575-0dfe-4c5e-9c18-7e53f3e3b820.png)
