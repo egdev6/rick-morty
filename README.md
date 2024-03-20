@@ -27,7 +27,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/egdev6">
-    <img src="[rick-y-morty-portal-phone-rick-and-morty.jpg](https://postimg.cc/Q9LYjtRQ)" alt="Logo">
+    <img src="https://i.postimg.cc/tJtyBSY4/rick-y-morty-portal-phone-rick-and-morty.jpg" alt="Logo">
   </a>
 
   <h3 align="center">rick-morty</h3>
