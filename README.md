@@ -26,8 +26,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/egdev6/online-cv">
-    <img src="https://i.postimg.cc/FKJyrbpd/Linkedin-egdev-Mesa-de-trabajo-1.png)](https://postimg.cc/HJdc3yfd" alt="Logo">
+  <a href="https://github.com/egdev6/rick-morty">
+
+    [![rick-y-morty-portal-phone-rick-and-morty.jpg](https://i.postimg.cc/V6vxB0gV/rick-y-morty-portal-phone-rick-and-morty.jpg)](https://postimg.cc/Q9LYjtRQ)
+
   </a>
 
   <h3 align="center">rick-morty</h3>
