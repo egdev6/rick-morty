@@ -35,7 +35,9 @@ export const CharacterCardContainer = styled.button`
     > .info-container {
       > .btn {
         background-color: ${theme.colors.terciary};
-        color: ${theme.colors.black};
+        > p {
+          color: ${theme.colors.black};
+        }
       }
     }
   }
