@@ -5,7 +5,7 @@ interface Props {
   $isLogged?: boolean
 }
 export const LayoutContainer = styled.div`
-  width: 100dvw;
+  width: 100%;
   min-height: 100dvh;
   background-image: url('/src/assets/images/background.jpg');
   background-size: cover;
