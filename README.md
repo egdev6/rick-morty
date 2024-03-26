@@ -84,7 +84,7 @@ Technologies used in this landing page's development
 [forks-shield]: https://img.shields.io/github/forks/egdev6/online-cv.svg?style=for-the-badge
 [forks-url]: https://github.com/egdev6/online-cv/network/members
 [stars-shield]: https://img.shields.io/github/stars/egdev6/online-cv.svg?style=for-the-badge
-[stars-url]: https://github.com/egdev6/online-cv/stargazers
+[stars-url]: https://github.com/egdev6/rick-morty/stargazers
 [issues-shield]: https://img.shields.io/github/issues/egdev6/online-cv.svg?style=for-the-badge
 [issues-url]: https://github.com/egdev6/online-cv/issues
 [license-shield]: https://img.shields.io/github/license/egdev6/online-cv.svg?style=for-the-badge
