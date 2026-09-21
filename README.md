@@ -22,6 +22,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -77,9 +78,16 @@ Technologies used in this landing page's development
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
+
+## License
+
+Distributed under the [MIT License][license].
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
+[license]: LICENSE
 [contributors-shield]: https://img.shields.io/github/contributors/egdev6/rick-morty.svg?style=for-the-badge
 [contributors-url]: https://github.com/egdev6/rick-morty/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/egdev6/rick-morty.svg?style=for-the-badge
@@ -89,7 +97,7 @@ Technologies used in this landing page's development
 [issues-shield]: https://img.shields.io/github/issues/egdev6/rick-morty.svg?style=for-the-badge
 [issues-url]: https://github.com/egdev6/rick-morty/issues
 [license-shield]: https://img.shields.io/github/license/egdev6/rick-morty.svg?style=for-the-badge
-[license-url]: https://github.com/egdev6/rick-morty/blob/master/LICENSE.txt
+[license-url]: https://github.com/egdev6/rick-morty/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/egdev6
 [product-screenshot]: images/screenshot.png
